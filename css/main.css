@@ -1,40 +1,43 @@
-body{
-      font-family:Kumar+One ;
-      font-size: 20px ;
-      color:white ;
-      background: Black ;
-      text-align: center;
-    }
-    
-    p{
-      font-family: Kumar+One ;
-      color:white ;
-      font-size:15px;
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
- 
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
 
-
-    }
-    img {
-      width: 500px
-    }
-
-    h1{
-      font-family: Audiowide ;
-      font-size:80px ;
-      color:white;
-      text-stroke: 1px purple ;
-  
-    }
-   
-   
-
-    h3{ 
-      font-family:Audiowide ;
-     -webkit-text-stroke:1px white;
-      font-size:35px;
-      color:transparent;
-     
-  
-
-    }
+ul.posts li {
+    list-style: none;
+}
